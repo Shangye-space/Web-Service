@@ -1,5 +1,4 @@
 const path = require('path');
-const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 process.env.NODE_ENV = 'development';
@@ -8,7 +7,7 @@ module.exports = {
     mode: 'development',
     target: 'web',
     devtool: 'cheap-module-source-map',
-    entry: './src/index',
+    entry: './src/index.js',
     output: {
         path: path.resolve(__dirname, 'build'),
         publicPath: '/',
@@ -30,6 +29,7 @@ module.exports = {
     ],
     resolve: {
         alias: {},
+        extensions: ['.tsx', '.ts', '.js', '.scss', 'jsx'],
     },
     module: {
         rules: [
@@ -39,56 +39,32 @@ module.exports = {
                 use: ['babel-loader', 'eslint-loader'],
             },
             {
-                test: /\.(sa|sc|c|)ss$/,
+                test: /\.tsx?$/,
+                use: 'ts-loader',
                 exclude: /node_modules/,
-                use: [
-                    {
-                        loader: 'style-loader', // inject CSS to page
-                    },
-                    {
-                        loader: 'postcss-loader', // Run post css actions
-                        options: {
-                            plugins: function() {
-                                // post css plugins, can be exported to postcss.config.js
-                                return [
-                                    require('precss'),
-                                    require('autoprefixer'),
-                                ];
-                            },
-                        },
-                    },
-                    {
-                        loader: 'sass-loader', // compiles Sass to CSS
-                    },
-                ],
             },
             {
-                test: /\.pcss$/,
-                exclude: /node_modules/,
-                use: [
+                test: /\.module\.s(a|c)ss$/,
+                loader: [
+                    'style-loader',
                     {
-                        loader: 'css-loader', // translates CSS into CommonJS modules
+                        loader: 'css-loader',
                         options: {
-                            importLoaders: 1,
                             modules: true,
                         },
                     },
                     {
-                        loader: 'postcss-loader', // Run post css actions
-                        options: {
-                            plugins: function() {
-                                // post css plugins, can be exported to postcss.config.js
-                                return [
-                                    require('precss'),
-                                    require('autoprefixer'),
-                                ];
-                            },
-                        },
+                        loader: 'sass-loader',
                     },
                 ],
             },
             {
-                test: /\.(gif|png|jpg|jpe?g|svg|ttf|eot|woff)$/i,
+                test: /\.s(a|c)ss$/,
+                exclude: /\.module.(s(a|c)ss)$/,
+                loader: ['style-loader', 'css-loader', 'sass-loader'],
+            },
+            {
+                test: /\.(gif|png|jpg|jpe?g|svg|ttf|eot|woff|woff2|mp4)$/i,
                 use: [
                     {
                         loader: 'file-loader',

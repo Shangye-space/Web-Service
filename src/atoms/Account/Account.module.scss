@@ -1,0 +1,21 @@
+@import '../../settings/variables.scss';
+
+.accountWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: $light-grey;
+    padding: 0 4px;
+
+    font-size: 28px;
+    span {
+        font-size: 12px;
+        font-family: $casual;
+        padding-left: 8px;
+    }
+
+    & :hover {
+        color: $soft-orange;
+        cursor: pointer;
+    }
+}
