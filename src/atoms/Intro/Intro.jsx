@@ -10,7 +10,10 @@ const Intro = () => {
                 muted="muted"
                 loop="loop"
             >
-                <source src="/public/videos/bgv.mp4" type="video/mp4" />
+                <source
+                    src={process.env.PUBLIC_URL + '/videos/bgv.mp4'}
+                    type="video/mp4"
+                />
             </video>
         </>
     );
