@@ -7,6 +7,7 @@ const Account = () => {
         <>
             <div className={styles.accountWrapper}>
                 <a className="fas fa-user-circle"></a>
+                <span>Hi, Customer</span>
             </div>
         </>
     );
