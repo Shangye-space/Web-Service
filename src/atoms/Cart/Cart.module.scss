@@ -1,0 +1,13 @@
+@import '../../settings/variables.scss';
+
+.cartWrapper {
+    display: block;
+    color: $light-grey;
+
+    font-size: 26px;
+
+    & :hover {
+        color: $soft-orange;
+        cursor: pointer;
+    }
+}

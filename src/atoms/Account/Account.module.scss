@@ -1,0 +1,13 @@
+@import '../../settings/variables.scss';
+
+.accountWrapper {
+    display: block;
+    color: $light-grey;
+
+    font-size: 28px;
+
+    & :hover {
+        color: $soft-orange;
+        cursor: pointer;
+    }
+}
