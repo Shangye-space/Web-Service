@@ -1,0 +1,18 @@
+@import '../../settings/variables.scss';
+
+.trendsWrapper {
+    justify-content: center;
+}
+
+.header {
+    text-align: left;
+    font-family: $marker;
+    font-size: 59px;
+    line-height: 1.4em;
+    padding: 0 30px;
+    margin-bottom: 0.5em;
+}
+
+.tileWrapper {
+    display: flex;
+}

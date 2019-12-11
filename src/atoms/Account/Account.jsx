@@ -2,11 +2,14 @@ import React from 'react';
 
 import styles from './Account.module.scss';
 
-const Account = () => {
+const Account = ({ isVisible, setVisibility }) => {
     return (
         <>
-            <div className={styles.accountWrapper}>
-                <a className="fas fa-user-circle"></a>
+            <div
+                className={styles.accountWrapper}
+                onClick={() => setVisibility(!isVisible)}
+            >
+                <div className="fas fa-user-circle"></div>
                 <span>Hi, Customer</span>
             </div>
         </>

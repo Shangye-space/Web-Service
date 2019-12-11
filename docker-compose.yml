@@ -1,0 +1,10 @@
+version: '3'
+services:
+    web-service:
+        build:
+            context: ./
+            dockerfile: Dockerfile
+        ports:
+            - '5777:5777'
+        volumes:
+            - .:/usr/src/app
