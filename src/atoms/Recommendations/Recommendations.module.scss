@@ -1,0 +1,24 @@
+@import '../../settings/variables.scss';
+
+.wrapper {
+    width: 100%;
+    height: 510px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.banner {
+    background-color: $hard-orange;
+    color: $light-grey;
+    font-family: $casual;
+    border-radius: 2%;
+    font-size: 43px;
+    line-height: 1.4em;
+    height: 240px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
