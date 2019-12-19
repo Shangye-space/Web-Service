@@ -10,8 +10,6 @@ COPY package*.json ./
 
 COPY . ./
 
-RUN npm install node-sass --sass-binary-name=linux-x64-64
-
 CMD [ "npm" , "run" ,"start:dev"]
 
 EXPOSE 5777

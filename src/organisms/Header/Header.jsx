@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link, NavLink } from 'react-router-dom';
 import classnames from 'classnames';
 import styles from './Header.module.scss';
 
@@ -37,10 +38,10 @@ const Header = () => {
                     )}
                     id="navbarTogglerDemo01"
                 >
-                    <a className="navbar-brand" href="#">
+                    <Link className="navbar-brand" to="/">
                         <strong className={styles.orangeText}>Shangye</strong>
                         .space
-                    </a>
+                    </Link>
                     <ul
                         className={classnames(
                             styles.list,
@@ -48,47 +49,27 @@ const Header = () => {
                             'mt-2 mt-lg-0',
                         )}
                     >
-                        <li className="nav-item active">
-                            <a className="nav-link" href="#">
-                                Home <span className="sr-only">(current)</span>
-                            </a>
+                        <li className="nav-item">
+                            <NavLink className="nav-link" to="/" exact>
+                                Home
+                            </NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">
+                            <NavLink className="nav-link" to="/shop">
                                 Shop collection
-                            </a>
+                            </NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">
+                            <NavLink className="nav-link" to="/story">
                                 Our Story
-                            </a>
+                            </NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">
+                            <NavLink className="nav-link" to="/contacts">
                                 Contacts
-                            </a>
+                            </NavLink>
                         </li>
                     </ul>
-                    {/* <form
-                        className={classnames(
-                            styles.acc_bar,
-                            'form-inline',
-                            'my-2 my-lg-0',
-                        )}
-                    >
-                        <input
-                            className="form-control mr-sm-2"
-                            type="search"
-                            placeholder="Search"
-                            aria-label="Search"
-                        />
-                        <button
-                            className="btn btn-outline-success my-2 my-sm-0"
-                            type="submit"
-                        >
-                            Search
-                        </button>
-                    </form> */}
                     <UserBar className={styles.acc_bar} />
                 </div>
             </nav>

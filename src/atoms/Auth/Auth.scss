@@ -1,3 +1,5 @@
+@import '../../settings/variables.scss';
+
 .cont_centrar {
     position: fixed;
     z-index: 150;
@@ -41,7 +43,7 @@
 }
 
 .ul_tabs > .active > a {
-    color: #ff8383;
+    color: $soft-orange;
 }
 
 .linea_bajo_nom {
@@ -56,7 +58,7 @@
     position: relative;
     width: 100%;
     float: left;
-    background-color: #ff8383;
+    background-color: $soft-orange;
     height: 2px;
 }
 
@@ -92,7 +94,7 @@
 }
 
 .input_form_sign:focus {
-    border-bottom: 1px solid #ff8383;
+    border-bottom: 1px solid $soft-orange;
 }
 
 .link_forgot_pass {
@@ -112,8 +114,8 @@
 }
 
 .btn_sign {
-    background: rgba(255, 64, 88, 0.74);
-    box-shadow: 0px 2px 20px 2px rgba(255, 114, 132, 0.5);
+    background: $soft-orange;
+    box-shadow: 0px 2px 20px 2px rgba(219, 150, 93, 0.5);
     border-radius: 8px;
     padding: 15px 30px;
     border: none;
