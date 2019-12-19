@@ -1,0 +1,101 @@
+@import '../../settings/variables.scss';
+$blue: linear-gradient(to bottom right, #56ccf2, $soft-green);
+$orange: linear-gradient(
+    to right top,
+    #ff9671,
+    #fd8f5e,
+    #f88949,
+    #f38332,
+    #eb7f12
+);
+$bg: #fff;
+$size: 150px;
+$duration: 2000ms;
+
+@keyframes rotate {
+    0%,
+    7.5% {
+        transform: rotate(0deg);
+    }
+    12.5%,
+    20% {
+        transform: rotate(45deg);
+    }
+    25%,
+    32.5% {
+        transform: rotate(90deg);
+    }
+    37.5%,
+    45% {
+        transform: rotate(135deg);
+    }
+    50%,
+    57.5% {
+        transform: rotate(180deg);
+    }
+    62.5%,
+    70% {
+        transform: rotate(225deg);
+    }
+    75%,
+    82.5% {
+        transform: rotate(270deg);
+    }
+    87.5%,
+    95% {
+        transform: rotate(315deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes slide {
+    0%,
+    15%,
+    100% {
+        transform: translate(0%, 0%);
+    }
+    25%,
+    40% {
+        transform: translate(0%, 100%);
+    }
+    50%,
+    65% {
+        transform: translate(100%, 100%);
+    }
+    75%,
+    90% {
+        transform: translate(100%, 0%);
+    }
+}
+
+.loader {
+    display: block;
+    position: absolute;
+    top: 50%;
+    width: $size;
+    height: $size;
+    border-radius: 10%;
+    background: $orange;
+    overflow: hidden;
+    animation: rotate $duration * 2 cubic-bezier(0.645, 0.045, 0.355, 1)
+        infinite;
+
+    &::before,
+    &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 50%;
+        background: $blue;
+        animation: slide $duration cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
+    }
+
+    &::after {
+        animation-delay: $duration / 2 * -1;
+    }
+}

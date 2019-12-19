@@ -1,0 +1,67 @@
+@import '../../settings/variables.scss';
+
+.wrapper {
+    padding: 1em 0;
+    min-width: 277.5px;
+
+    & :hover {
+        cursor: pointer;
+    }
+}
+
+.link {
+    text-decoration: none !important;
+    color: $default-dark !important;
+
+    & :hover {
+        text-decoration: none !important;
+        color: $default-dark !important;
+    }
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: ' ';
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: -1px 2px 4px rgba(0, 0, 0, 0.25), 1px 1px 3px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 340px;
+}
+
+.cardMedia {
+    width: 100%;
+}
+
+.cardDetails {
+    padding: 5px 15px;
+}
+
+.cardHead {
+    font-weight: 400;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.cardActionButton {
+    border-radius: 2px;
+    color: $default-dark;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 500;
+    margin: 0;
+    padding: 10px;
+    text-decoration: none;
+
+    & :hover {
+        background-color: rgba(255, 168, 58, 0.2);
+    }
+}
