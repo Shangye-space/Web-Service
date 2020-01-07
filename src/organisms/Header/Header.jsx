@@ -5,7 +5,7 @@ import styles from './Header.module.scss';
 
 import UserBar from '../../molecules/UserBar';
 
-const Header = () => {
+const Header = ({ userData }) => {
     return (
         <>
             <nav
@@ -70,7 +70,7 @@ const Header = () => {
                             </NavLink>
                         </li>
                     </ul>
-                    <UserBar className={styles.acc_bar} />
+                    <UserBar className={styles.acc_bar} userData={userData} />
                 </div>
             </nav>
         </>

@@ -2,7 +2,11 @@ import React from 'react';
 
 import styles from './Account.module.scss';
 
-const Account = ({ isVisible, setVisibility }) => {
+const Account = ({ isVisible, setVisibility, userData }) => {
+    function formatName(name) {
+        return name.substring(0, 1).toUpperCase() + name.substring(1);
+    }
+
     return (
         <>
             <div
@@ -10,7 +14,7 @@ const Account = ({ isVisible, setVisibility }) => {
                 onClick={() => setVisibility(!isVisible)}
             >
                 <div className="fas fa-user-circle"></div>
-                <span>Hi, Customer</span>
+                <span>Hi, {formatName(userData.name)}!</span>
             </div>
         </>
     );

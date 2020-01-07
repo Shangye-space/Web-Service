@@ -47,10 +47,10 @@ const Auth = ({ isVisible }) => {
         for (var i = 0; i < inputs.length; i++) {
             switch (i) {
                 case 1:
-                    console.log(inputs[i].name);
+                    // console.log(inputs[i].name);
                     break;
                 case 2:
-                    console.log(inputs[i].name);
+                // console.log(inputs[i].name);
                 // eslint-disable-next-line no-fallthrough
                 default:
                     document.querySelectorAll('.input_form_sign')[i].className =

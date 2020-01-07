@@ -47,6 +47,9 @@ const Store = () => {
                             id={item.ID}
                             key={item.ID}
                             name={item.Name}
+                            description={item.Description}
+                            quantity={item.Quantity}
+                            discount={item.Size}
                             price={item.Price}
                         />
                     ))}

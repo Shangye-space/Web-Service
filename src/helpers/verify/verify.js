@@ -32,7 +32,7 @@ export async function verifyAuth() {
     });
 }
 
-export function fetchData() {
+export async function fetchData() {
     const token = getCookie('auth_token');
 
     return new Promise((resolve, reject) => {
@@ -56,3 +56,28 @@ export function fetchData() {
         });
     });
 }
+
+export const validateAdmin = () => {
+    const token = getCookie('auth_token');
+    return new Promise((resolve, reject) => {
+        jwt.verify(token, 'secret', (err, decoder) => {
+            if (decoder && decoder.data) {
+                const { email, password } = decoder.data;
+
+                axios
+                    .post('http://localhost:3000/api/private/admin/validate', {
+                        email,
+                        password,
+                        token,
+                    })
+                    .then(res => {
+                        console.log(res.data);
+                        resolve(res.data.admin);
+                    })
+                    .catch(err => {
+                        resolve(err.message);
+                    });
+            }
+        });
+    });
+};
