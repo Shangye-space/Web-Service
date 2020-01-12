@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot renders 1`] = `
+<div
+  className="container trendsWrapper"
+>
+  <div
+    className="header"
+  >
+    Today's Trends
+  </div>
+  <div
+    className="col-12 tileWrapper"
+  >
+    <div
+      className="col-6 bestSellerWrapper"
+    >
+      <img
+        alt=""
+        src="/images/989171832_o.jpg"
+      />
+    </div>
+    <div
+      className="col-6 wrapper"
+    >
+      <div
+        className="banner"
+      >
+        <div>
+          Our Recommendations
+        </div>
+      </div>
+      <div
+        className="items"
+      >
+        <div
+          className="left"
+        >
+          <img
+            src="/images/IMG_2592.jpg"
+          />
+        </div>
+        <div
+          className="right"
+        >
+          <img
+            src="/images/RXTM-088-600x600.jpg"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

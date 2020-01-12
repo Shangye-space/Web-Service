@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot renders 1`] = `
+<table
+  className="table table"
+>
+  <thead>
+    <tr>
+      <th
+        scope="col"
+      >
+        id
+      </th>
+      <th
+        scope="col"
+      >
+        image
+      </th>
+      <th
+        scope="col"
+      >
+        name
+      </th>
+      <th
+        scope="col"
+      >
+        description
+      </th>
+      <th
+        scope="col"
+      >
+        price
+      </th>
+      <th
+        scope="col"
+      >
+        in_sale
+      </th>
+      <th
+        scope="col"
+      >
+        quantity
+      </th>
+      <th
+        scope="col"
+      >
+        discount
+      </th>
+      <th
+        scope="col"
+      />
+    </tr>
+  </thead>
+  <tbody />
+</table>
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot renders 1`] = `
+<div
+  className="cartWrapper"
+>
+  <a
+    className="fas fa-shopping-cart"
+  />
+</div>
+`;

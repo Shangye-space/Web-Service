@@ -1,0 +1,276 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot renders 1`] = `
+<div
+  className="footer-style"
+>
+  <hr
+    align="center"
+    color="white"
+    size="2"
+  />
+  <div
+    className="container"
+  >
+    <div
+      className="row py-4 "
+    >
+      <div
+        className="col-md-2 col-sm-6"
+      />
+      <div
+        className="col-md-3 col-sm-6"
+      >
+        <h4
+          className="text-center main-color"
+        >
+          <img
+            alt=""
+            className="image"
+            src="https://static.wixstatic.com/media/035244_7ab29c72994f4040bafcacadad3a166c~mv2.png/v1/fill/w_124,h_124,al_c,q_80,usm_0.66_1.00_0.01/035244_7ab29c72994f4040bafcacadad3a166c~mv2.webp"
+          />
+        </h4>
+        <ul
+          className="list-unstyled text-center"
+        >
+          <li
+            className="list-unstyled"
+          >
+            <p
+              className="footer-white-thin py-2"
+            >
+              (+372) 53078808
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div
+        className="col-md-2 col-sm-6"
+      >
+        <h4
+          className="text-center main-color"
+        >
+          <img
+            alt=""
+            className="image"
+            src="https://static.wixstatic.com/media/035244_0ffd26364b1841ca8b891a68587a8769~mv2.png/v1/fill/w_124,h_124,al_c,q_80,usm_0.66_1.00_0.01/035244_0ffd26364b1841ca8b891a68587a8769~mv2.webp"
+          />
+        </h4>
+        <ul
+          className="list-unstyled text-center"
+        >
+          <div
+            className="txtNew"
+            data-packed="true"
+            id="comp-k2aojfer"
+          >
+            <h6
+              className="font_6 py-2"
+            >
+              <span
+                className="color_11"
+              >
+                <object
+                  height="0"
+                >
+                  <a
+                    className="auto-generated-link footer-white-thin"
+                    data-auto-recognition="true"
+                    data-content="help@shangye.space"
+                    data-type="mail"
+                    href="mailto:help@shangye.space"
+                  >
+                    help@shangye.space
+                  </a>
+                </object>
+              </span>
+            </h6>
+          </div>
+        </ul>
+      </div>
+      <div
+        className="col-md-3 col-sm-6"
+      >
+        <h4
+          className="text-center main-color"
+        >
+          <img
+            alt=""
+            className="image"
+            src="https://static.wixstatic.com/media/035244_0e1bb186604048af82e5dce8c833d568~mv2.png/v1/fill/w_124,h_124,al_c,q_80,usm_0.66_1.00_0.01/035244_0e1bb186604048af82e5dce8c833d568~mv2.webp"
+          />
+        </h4>
+        <ul
+          className="list-unstyled text-center"
+        >
+          <li
+            className="list-unstyled"
+          >
+            <p
+              className="footer-white-thin py-2"
+            >
+              Moisa 12, Ida- Virumaa, Eesti
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div
+        className="col-md-2 col-sm-6"
+      />
+      <div
+        className="py-3"
+      />
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-2 col-sm-6"
+      />
+      <div
+        className="col-md-2 col-sm-6"
+      >
+        <h4
+          className="main-color footer"
+        >
+          Company
+        </h4>
+        <ul
+          className="list-unstyled"
+        >
+          <li
+            className="list-unstyled"
+          >
+            <a
+              className="footer-white-thin"
+              href="#!"
+            >
+              Shipping & Returns
+            </a>
+          </li>
+          <li
+            className="list-unstyled"
+          >
+            <a
+              className="footer-white-thin"
+              href="#!"
+            >
+              Store Policy
+            </a>
+          </li>
+          <li
+            className="list-unstyled"
+          >
+            <a
+              className="footer-white-thin"
+              href="#!"
+            >
+              Payment Methods
+            </a>
+          </li>
+          <li
+            className="list-unstyled"
+          >
+            <a
+              className="footer-white-thin"
+              href="#!"
+            >
+              FAQ
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        className="col-md-2 col-sm-6"
+      >
+        <h4
+          className="main-color footer"
+        >
+          About
+        </h4>
+        <ul
+          className="list-unstyled"
+        >
+          <li
+            className="list-unstyled"
+          >
+            <a
+              className="footer-white-thin"
+              href="#!"
+            >
+              Shop Collection
+            </a>
+          </li>
+          <li
+            className="list-unstyled"
+          >
+            <a
+              className="footer-white-thin"
+              href="#!"
+            >
+              Our Story
+            </a>
+          </li>
+          <li
+            className="list-unstyled"
+          >
+            <a
+              className="footer-white-thin"
+              href="#!"
+            >
+              Contsct
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        className="col-md-4 col-sm-6"
+      >
+        <iframe
+          allowFullScreen=""
+          frameBorder="0"
+          height="450"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2031.3240794884045!2d24.668061116197247!3d59.39430541285304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46929571602ab779%3A0xbc2ba7357f40e17e!2sTaltech!5e0!3m2!1sen!2see!4v1576334683265!5m2!1sen!2see"
+          style={
+            Object {
+              "border": 0,
+              "maxHeight": "146px",
+              "maxWidth": "100%",
+            }
+          }
+          width="600"
+        />
+      </div>
+      <div
+        className="col-md-2 col-sm-6"
+      />
+    </div>
+    <hr
+      align="center"
+      color="#E49881"
+      size="2"
+      style={
+        Object {
+          "width": "100%",
+        }
+      }
+    />
+    <div
+      className="footer-bottom"
+    >
+      <p
+        className="text-center main-color"
+      >
+        ©
+        2020
+        -2020 Shangye.space . All Rights Reserved
+      </p>
+      <br />
+    </div>
+  </div>
+</div>
+`;

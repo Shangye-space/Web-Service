@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot renders 1`] = `
+<nav
+  className="navbar navbar-expand-lg navbar-dark nav"
+>
+  <button
+    aria-controls="navbarTogglerDemo01"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+    className="navbar-toggler toggleButton"
+    data-target="#navbarTogglerDemo01"
+    data-toggle="collapse"
+    type="button"
+  >
+    <span
+      className="navbar-toggler-icon"
+    />
+  </button>
+  <div
+    className="collapse navbar-collapse nav_wrapper"
+    id="navbarTogglerDemo01"
+  >
+    <a
+      className="navbar-brand"
+      href="/"
+      onClick={[Function]}
+    >
+      <strong
+        className="orangeText"
+      >
+        Shangye
+      </strong>
+      .space
+    </a>
+    <ul
+      className="list navbar-nav mt-2 mt-lg-0"
+    >
+      <li
+        className="nav-item"
+      >
+        <a
+          aria-current="page"
+          className="nav-link active"
+          href="/"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          Home
+        </a>
+      </li>
+      <li
+        className="nav-item"
+      >
+        <a
+          aria-current={null}
+          className="nav-link"
+          href="/shop"
+          onClick={[Function]}
+        >
+          Shop collection
+        </a>
+      </li>
+      <li
+        className="nav-item"
+      >
+        <a
+          aria-current={null}
+          className="nav-link"
+          href="/story"
+          onClick={[Function]}
+        >
+          Our Story
+        </a>
+      </li>
+      <li
+        className="nav-item"
+      >
+        <a
+          aria-current={null}
+          className="nav-link"
+          href="/contacts"
+          onClick={[Function]}
+        >
+          Contacts
+        </a>
+      </li>
+    </ul>
+    <div
+      className="userBarWrapper"
+    >
+      <div
+        className="cartWrapper"
+      >
+        <a
+          className="fas fa-shopping-cart"
+        />
+      </div>
+      <div
+        className="accountWrapper"
+        onClick={[Function]}
+      >
+        <div
+          className="fas fa-user-circle"
+        />
+        <span>
+          Hi, 
+          Test
+          !
+        </span>
+      </div>
+    </div>
+  </div>
+</nav>
+`;

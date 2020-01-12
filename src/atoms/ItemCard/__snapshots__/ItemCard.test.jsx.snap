@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot renders 1`] = `
+<div
+  className="col-3 hvr-grow wrapper"
+>
+  <a
+    className="link"
+    href="/shop/item/undefined"
+    onClick={[Function]}
+  >
+    <div
+      className="card"
+    >
+      <img
+        className="cardMedia"
+        src="https://s13.postimg.cc/5al19x0d3/media_img.jpg"
+      />
+      <div
+        className="cardDetails"
+      >
+        <h2
+          className="cardHead"
+        />
+        <strong
+          className="cardActionButton"
+        >
+          $
+        </strong>
+      </div>
+    </div>
+  </a>
+</div>
+`;

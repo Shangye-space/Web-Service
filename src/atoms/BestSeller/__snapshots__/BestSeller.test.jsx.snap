@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot renders 1`] = `
+<div
+  className="col-6 bestSellerWrapper"
+>
+  <img
+    alt=""
+    src="/images/989171832_o.jpg"
+  />
+</div>
+`;

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot renders 1`] = `
+<tr>
+  <th
+    scope="row"
+  />
+  <td>
+    <img
+      style={
+        Object {
+          "height": "60px",
+          "width": "60px",
+        }
+      }
+    />
+  </td>
+  <td />
+  <td />
+  <td />
+  <td>
+    true
+  </td>
+  <td />
+  <td />
+  <td />
+</tr>
+`;

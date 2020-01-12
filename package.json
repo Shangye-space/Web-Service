@@ -19,6 +19,7 @@
         "react-dom": "^16.12.0",
         "react-router-dom": "^5.1.2",
         "react-scripts": "^3.2.0",
+        "react-test-renderer": "^16.12.0",
         "typeface-permanent-marker": "0.0.72",
         "typeface-titillium-web": "0.0.72"
     },
@@ -26,7 +27,7 @@
         "start": "serve -s build -p 80",
         "start:dev": "PORT=5777 react-scripts start",
         "build": "SKIP_PREFLIGHT_CHECK=true react-scripts build",
-        "test": "react-scripts test",
+        "test": "react-scripts test a",
         "eject": "react-scripts eject"
     },
     "eslintConfig": {

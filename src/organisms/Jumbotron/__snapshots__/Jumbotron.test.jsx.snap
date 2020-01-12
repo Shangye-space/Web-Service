@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot renders 1`] = `
+<section
+  className="wrapper jumbotron jumbotron-fluid"
+>
+  <div
+    className="overlay"
+  />
+  <video
+    autoPlay="autoplay"
+    loop="loop"
+    muted="muted"
+    playsInline="playsinline"
+  >
+    <source
+      src="/videos/bgv.mp4"
+      type="video/mp4"
+    />
+  </video>
+  <div
+    className="container h-100"
+  >
+    <div
+      className="d-flex h-100 text-center align-items-center"
+    >
+      <div
+        className="textArea w-100 text-white"
+      >
+        <h1
+          className="display-3"
+        >
+          Shangye
+          <strong
+            className="orangeText"
+          >
+            .space
+          </strong>
+        </h1>
+        <p
+          className="lead mb-0"
+        >
+          ALWAYS BE
+          <br />
+          YOURSELF
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+`;

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot renders 1`] = `
+<div
+  className="accountWrapper"
+  onClick={[Function]}
+>
+  <div
+    className="fas fa-user-circle"
+  />
+  <span>
+    Hi, 
+    Test
+    !
+  </span>
+</div>
+`;

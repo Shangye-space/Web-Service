@@ -1,0 +1,572 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot renders 1`] = `
+<div
+  className="account-style"
+>
+  <div
+    className="account-main-style"
+  >
+    <br />
+  </div>
+  <div
+    className="account-main-style"
+  >
+     
+    <div
+      className="container account-main-style"
+    >
+      <div
+        className="row py-1 "
+      >
+        <div
+          className="col-md-2 col-sm-6"
+        />
+        <div
+          className="col-md-3 col-sm-6"
+        >
+          <ul
+            className="list-unstyled text-center"
+          >
+            <div>
+              <a
+                className="account-white"
+                href="#!"
+              >
+                ЛИЧНЫЕ ДАННЫЕ
+              </a>
+            </div>
+          </ul>
+        </div>
+        <div
+          className="col-md-2 col-sm-6"
+        >
+          <ul
+            className="list-unstyled text-center"
+          >
+            <div>
+              <a
+                className="account-white"
+                href="#!"
+              >
+                ЗАКАЗЫ
+              </a>
+            </div>
+          </ul>
+        </div>
+        <div
+          className="col-md-3 col-sm-6"
+        >
+          <ul
+            className="list-unstyled text-center"
+          >
+            <div>
+              <a
+                className="account-white"
+                href="#!"
+              >
+                СПИСОК ЖЕЛАНИЙ
+              </a>
+            </div>
+          </ul>
+        </div>
+        <div
+          className="col-md-2 col-sm-6"
+        />
+        <div
+          className="py-3"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="container account-style2"
+  >
+     
+    <div
+      className="acoount-style2 col-md-2 col-sm-6"
+    >
+      <br />
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-2 col-sm-6"
+      >
+        <h4
+          className=" main-color"
+        >
+          <img
+            alt=""
+            className="img"
+            src="https://i.ibb.co/NKjNb0b/Photo1.jpg"
+          />
+        </h4>
+      </div>
+      <div
+        className="col-md-4 col-sm-6"
+      >
+        <h4
+          className="black "
+        >
+          JEGOR LAPTEV
+        </h4>
+        <ul
+          className="list-unstyled"
+        >
+          <li
+            className="list-unstyled"
+          >
+            <a
+              className="acoount-gray-thin"
+              href="#!"
+            >
+              Edit Photo...
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        className="col-md-5 col-sm-6"
+      >
+        <h4
+          className="main-color account"
+        >
+          Contact with us
+        </h4>
+        <ul
+          className="list-unstyled"
+        >
+          <br />
+          <li
+            className="list-unstyled"
+          >
+            <a
+              className="acoount-gray-thin"
+              href="#!"
+            >
+              help@shanye.space
+            </a>
+          </li>
+          <li
+            className="list-unstyled"
+          >
+            <a
+              className="acoount-gray-thin"
+              href="#!"
+            >
+              (+372) 53078808
+            </a>
+          </li>
+          <li
+            className="list-unstyled"
+          >
+            <a
+              className="acoount-gray-thin"
+              href="#!"
+            >
+              skype: shangye
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <hr
+      align="center"
+      color="#E49881"
+      size="2"
+      width="800"
+    />
+     
+    <div
+      className="acoount-bottom"
+    >
+      <br />
+    </div>
+  </div>
+  <div
+    className="container account-style2"
+  >
+     
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-3 col-sm-6"
+      >
+        <h6
+          className="black"
+        >
+          Full Name
+        </h6>
+        <input
+          className="black-s"
+          name="fullnameMain"
+          type="text"
+          value="Jegor Laptev"
+        />
+      </div>
+      <div
+        className="col-md-3 col-sm-6"
+      >
+        <h6
+          className="black"
+        >
+          Email Adress
+        </h6>
+        <input
+          className="black-s"
+          name="emailMain"
+          type="text"
+          value="j.laptev@gmail.com"
+        />
+      </div>
+      <div
+        className="col-md-3 col-sm-6"
+      >
+        <h6
+          className="black"
+        >
+          Phone Number
+        </h6>
+        <input
+          className="black-s"
+          name="phoneMain"
+          type="text"
+          value="+372 53078809"
+        />
+      </div>
+      <div
+        className="col-md-3 col-sm-6"
+      >
+        <h6
+          className="black"
+        >
+          Country
+        </h6>
+        <input
+          className="black-s"
+          name="countryMain"
+          type="text"
+          value="Estonia"
+        />
+      </div>
+      <div
+        className="col-md-3 col-sm-6"
+      >
+        <br />
+        <h6
+          className="black"
+        >
+          Language
+        </h6>
+        <select>
+          <option
+            value="volvo"
+          >
+            English
+          </option>
+          <option
+            value="saab"
+          >
+            Русский
+          </option>
+          <option
+            value="opel"
+          >
+            Eesti
+          </option>
+        </select>
+      </div>
+    </div>
+    <div
+      className="acoount-style2"
+    >
+      <br />
+      <hr
+        align="center"
+        color="#E49881"
+        size="2"
+        width="800"
+      />
+      <br />
+    </div>
+    <div
+      className="acoount-style2"
+    >
+      <h4
+        className="black"
+      >
+        Change Password
+      </h4>
+      <br />
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-3 col-sm-6"
+      >
+        <h6
+          className="black"
+        >
+          Old Password
+        </h6>
+        <input
+          className="black-s"
+          name="oldPassword"
+          type="text"
+          value=" **********"
+        />
+      </div>
+      <div
+        className="col-md-3 col-sm-6"
+      >
+        <h6
+          className="black"
+        >
+          New Password
+        </h6>
+        <input
+          className="black-s"
+          name="newPassword"
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="col-md-3 col-sm-6"
+      >
+        <h6
+          className="black"
+        >
+          Confirm Password
+        </h6>
+        <input
+          className="black-s"
+          name="confirmPassword"
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="col-md-3 col-sm-6"
+      >
+        <h6
+          className="black"
+        >
+           
+          <br />
+        </h6>
+        <input
+          type="submit"
+          value="Confirm password"
+        />
+      </div>
+    </div>
+    <div
+      className="acoount-style2"
+    >
+      <br />
+      <hr
+        align="center"
+        color="#E49881"
+        size="2"
+        width="800"
+      />
+      <br />
+    </div>
+    <div
+      className="acoount-style2"
+    >
+      <h4
+        className="black"
+      >
+        Shipping Information
+      </h4>
+      <br />
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-3 col-sm-6"
+      >
+        <h6
+          className="black"
+        >
+          First Name
+        </h6>
+        <input
+          className="black-s"
+          name="fname"
+          type="text"
+          value="Jegor Laptev"
+        />
+      </div>
+      <div
+        className="col-md-3 col-sm-6"
+      >
+        <h6
+          className="black"
+        >
+          Last Name
+        </h6>
+        <input
+          className="black-s"
+          name="fname"
+          type="text"
+          value="j.laptev@gmail.com"
+        />
+      </div>
+      <div
+        className="col-md-6 col-sm-6"
+      >
+         
+      </div>
+      <div
+        className="col-md-3 col-sm-6"
+      >
+        <br />
+        <h6
+          className="black"
+        >
+          Street
+        </h6>
+        <input
+          className="black-s"
+          name="street"
+          type="text"
+          value="Moisa"
+        />
+      </div>
+      <div
+        className="col-md-3 col-sm-6"
+      >
+        <br />
+        <h6
+          className="black"
+        >
+          House, Flat
+        </h6>
+        <input
+          className="black-s"
+          name="house"
+          type="text"
+          value="46 - 343"
+        />
+      </div>
+      <div
+        className="col-md-3 col-sm-6"
+      >
+        <br />
+        <h6
+          className="black"
+        >
+          Zip
+        </h6>
+        <input
+          className="black-s"
+          name="zip"
+          type="text"
+          value="12616"
+        />
+      </div>
+      <div
+        className="col-md-3 col-sm-6"
+      />
+       
+      <div
+        className="col-md-3 col-sm-6"
+      >
+        <br />
+        <h6
+          className="black"
+        >
+          Country
+        </h6>
+        <input
+          className="black-s"
+          name="country"
+          type="text"
+          value="Eesti"
+        />
+      </div>
+      <div
+        className="col-md-3 col-sm-6"
+      >
+        <br />
+        <h6
+          className="black"
+        >
+          State
+        </h6>
+        <input
+          className="black-s"
+          name="state"
+          type="text"
+          value="Harjumaa"
+        />
+      </div>
+      <div
+        className="col-md-3 col-sm-6"
+      >
+        <br />
+        <h6
+          className="black"
+        >
+          Town
+        </h6>
+        <input
+          className="black-s"
+          name="town"
+          type="text"
+          value="Tallinn"
+        />
+      </div>
+    </div>
+    <div
+      className="acoount-style2"
+    >
+      <br />
+      <hr
+        align="center"
+        color="#E49881"
+        size="2"
+        width="800"
+      />
+      <br />
+    </div>
+    <div
+      className="acoount-style2"
+    >
+      <h4
+        className="black"
+      >
+        Diactivate Account
+      </h4>
+      <ul
+        className="list-unstyled"
+      >
+        <li
+          className="list-unstyled"
+        >
+          <p
+            className="acoount-gray-thin"
+          >
+            The monkey-rope is found in all whalers; but it was only in the Pequod that the monkey and his holder were ever tied together. This improvement upon the original usage was introduced by no.
+          </p>
+          <a
+            className="acoount-gray-thin2"
+            href="#!"
+          >
+            Diactivete Your Account
+          </a>
+        </li>
+      </ul>
+      <br />
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot renders 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "alignContent": "center",
+        "display": "flex",
+        "height": 1000,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <span
+      className="loader"
+    />
+  </div>
+</div>
+`;
