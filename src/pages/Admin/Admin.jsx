@@ -24,11 +24,14 @@ export default function Admin() {
 
             let arrayOfImages = [];
             response2.data.forEach(image => {
+                console.log(image);
                 arrayOfImages.push({
-                    id: parseInt(image.split(' ')[0]),
-                    link: image.split(' ')[1],
+                    id: parseInt(image.split('/')[image.split('/').length - 1]),
+                    link: image,
                 });
             });
+
+            console.log(arrayOfImages);
 
             const updated_items = response1.data.map((item, indx) => {
                 let result = [];
