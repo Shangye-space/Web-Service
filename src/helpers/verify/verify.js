@@ -71,7 +71,6 @@ export const validateAdmin = () => {
                         token,
                     })
                     .then(res => {
-                        console.log(res.data);
                         resolve(res.data.admin);
                     })
                     .catch(err => {

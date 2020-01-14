@@ -19,7 +19,6 @@ const Store = () => {
             .then(res => {
                 setItems((items = res.data));
 
-                console.log(items);
                 setTimeout(() => {
                     setLoading(false);
                 }, 500);

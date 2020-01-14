@@ -47,11 +47,8 @@ const Auth = ({ isVisible }) => {
         for (var i = 0; i < inputs.length; i++) {
             switch (i) {
                 case 1:
-                    // console.log(inputs[i].name);
                     break;
                 case 2:
-                // console.log(inputs[i].name);
-                // eslint-disable-next-line no-fallthrough
                 default:
                     document.querySelectorAll('.input_form_sign')[i].className =
                         'input_form_sign d_block';
@@ -62,10 +59,8 @@ const Auth = ({ isVisible }) => {
             for (var d = 0; d < inputs.length; d++) {
                 switch (d) {
                     case 1:
-                        console.log(inputs[d].name);
                         break;
                     case 2:
-                        console.log(inputs[d].name);
 
                     // eslint-disable-next-line no-fallthrough
                     default:
@@ -96,11 +91,8 @@ const Auth = ({ isVisible }) => {
             for (var d = 0; d < inputs.length; d++) {
                 switch (d) {
                     case 1:
-                        console.log(inputs[d].name);
                         break;
                     case 2:
-                        console.log(inputs[d].name);
-
                         break;
                     default:
                         document.querySelectorAll('.input_form_sign')[
