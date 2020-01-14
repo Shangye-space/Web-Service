@@ -28,6 +28,7 @@
         "start:dev": "PORT=5777 react-scripts start",
         "build": "SKIP_PREFLIGHT_CHECK=true react-scripts build",
         "test": "react-scripts test a",
+        "coverage": "react-scripts test a --coverage",
         "eject": "react-scripts eject"
     },
     "eslintConfig": {
